@@ -23,6 +23,7 @@ img { max-width: 100%; display: block; }
 .section-title { display: flex; align-items: center; gap: 14px; margin: 0px 0px 26px; color: var(--accent-deep); font-size: 1.42rem; line-height: 1.3; letter-spacing: 0.08em; }
 .section-title::before { width: 5px; height: 1.2em; border-radius: 999px; background: var(--accent); content: ""; }
 .experience { display: grid; grid-template-columns: minmax(0px, 1fr) auto; gap: 26px 36px; padding: 28px 30px; border: 1px solid var(--line); border-radius: 18px; background: linear-gradient(145deg, rgb(255, 255, 255), rgb(248, 251, 250)); }
+.experience + .experience { margin-top: 18px; }
 .company { margin: 0px; font-size: 1.16rem; line-height: 1.55; }
 .employment-meta { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px 18px; color: var(--muted); font-size: 0.94rem; text-align: right; }
 .responsibility { grid-column: 1 / -1; margin: 0px; color: rgb(52, 70, 63); }
@@ -98,6 +99,22 @@ img { max-width: 100%; display: block; }
             <span>在职时间：2021.10-至今</span>
           </div>
           <p class="responsibility"><strong>岗位职责：</strong>围绕场景方向的用户增长和体验，重点关注从需求洞察、项目落地、到分析迭代的全过程。期间经历异地、一人食、早餐等多个场景。</p>
+        </article>
+        <article class="experience">
+          <h3 class="company">公司名称：好未来教育科技集团</h3>
+          <div class="employment-meta">
+            <span>职位名称：产品运营</span>
+            <span>在职时间：2020.9-2021.9</span>
+          </div>
+          <p class="responsibility">挖掘业务需求，沉淀出产品需求并推动产品/系统迭代。负责从需求调研到效果复盘的全过程并为结果负责。</p>
+        </article>
+        <article class="experience">
+          <h3 class="company">公司名称：浙江畅唐网络股份有限公司</h3>
+          <div class="employment-meta">
+            <span>职位名称：产品运营</span>
+            <span>在职时间：2017.11-2020.6</span>
+          </div>
+          <p class="responsibility">负责制定产品迭代方案并落地运营，从数据、用户、业务角度出发优化产品并为结果负责。</p>
         </article>
       </section>
 
